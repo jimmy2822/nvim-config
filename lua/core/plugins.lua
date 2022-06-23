@@ -54,14 +54,6 @@ local astro_plugins = {
     end,
   },
 
-  -- Bufferline
-  ["akinsho/bufferline.nvim"] = {
-    after = "nvim-web-devicons",
-    config = function()
-      require "configs.bufferline"
-    end,
-  },
-
   -- Better buffer closing
   ["famiu/bufdelete.nvim"] = { cmd = { "Bdelete", "Bwipeout" } },
 
@@ -84,6 +76,15 @@ local astro_plugins = {
     after = "nvim-web-devicons",
     config = function()
       require "configs.feline"
+    end,
+  },
+
+  -- BarfferLine UI
+  ["akinsho/bufferline.nvim"] = {
+    tag = "v2.*",
+    after = "nvim-web-devicons",
+    config = function()
+      require "configs.bufferline"
     end,
   },
 
