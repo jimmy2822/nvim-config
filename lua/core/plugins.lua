@@ -197,6 +197,10 @@ local astro_plugins = {
     end,
   },
 
+ -- mkdir
+  ["jghauser/mkdir.nvim"] = {
+  },
+
   -- Fuzzy finder
   ["nvim-telescope/telescope.nvim"] = {
     cmd = "Telescope",

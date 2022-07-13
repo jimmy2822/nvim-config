@@ -30,14 +30,14 @@ if status_ok then
       },
     },
     window = {
-      width = 25,
+      width = 60,
       mappings = {
         ["o"] = "open",
       },
     },
     filesystem = {
       filtered_items = {
-        visible = false,
+        visible = true,
         hide_dotfiles = true,
         hide_gitignored = false,
         hide_by_name = {
